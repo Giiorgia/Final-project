@@ -17,7 +17,6 @@ body {
     justify-content: center; */
     /* color: white; */
     position: relative;
-
 }
 
 /* .Fitness_App::before {
@@ -27,9 +26,9 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgb(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-    /* z-index: -1; Place it behind the content */
-  /* } */
+    background-color: rgb(0, 0, 0, 0.5); /* Semi-transparent black overlay 
+    z-index: -1; Place it behind the content
+}*/
 
 .app_header{
     background-color: #1F1F1F;
@@ -167,4 +166,18 @@ body {
     margin-bottom: 30px;
     margin: 0 auto;
     margin-bottom: 50px;
+}
+
+.Fitness_App {
+    background-image: url(https://web-back.perfectgym.com/sites/default/files/styles/460x/public/equipment%20%286%29.jpg?itok=bC0T32-K);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    /* color: white; */
+    position: relative;
 }
