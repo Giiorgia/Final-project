@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1F1F1F;
+    color: #D61EC5;
+}
+
+.Fitness_App {
+    background-image: url(https://web-back.perfectgym.com/sites/default/files/styles/460x/public/equipment%20%286%29.jpg?itok=bC0T32-K);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    /* color: white; */
+    position: relative;
+
+}
+
+.Fitness_App::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: -1; /* Place it behind the content */
+  }
+
+.app_header{
+    background-color: #1F1F1F;
+    padding: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.header_title{
+    text-align: center;
+    margin: 0;
+}
+
+.fitness_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #1F1F1F; */
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.app_logo {
+    height: 100%;
+    width: 100%;
+    max-width: 150px;
+}
+
+/* .app_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.header_info {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_info li a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #D61EC5;
+}
+
+/* .AppName{
+    /* text-align: center; */
+    /* letter-spacing: 2px; */
+    /* font-size: 30px;
+    font-weight: bold; */
+    /* color: white; */
+/* } */ */
+
+.SearchBar{
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+.MuscleInput,
+.SearchButton {
+    padding: 10px;
+    margin-right: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+
+.SearchButton {
+    background-color: #D61EC5;
+    color: white;
+    text-align: center;
+}
+
+.Cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Exercise_Card {
+    width: 100%;
+    max-width: 300px;
+    background-color: #ffffff;
+    height: 100%;
+    min-height: 360px;
+}
+
+.Card_Info {
+    padding: 15px;
+}
+
+.instructions {
+    width: 100%;
+    max-width: 300px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.instructions.expanded {
+    -webkit-line-clamp: unset; 
+    overflow: visible;
+    width: 100%;
+    background-color: white;
+  }
+
+.Card_Image {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 144px;
+}
+
+.Exercise_Title {
+    margin: 0;
+}
+
+.card_button{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background-color: #D61EC5;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+}
+
+.SearchBar{
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
