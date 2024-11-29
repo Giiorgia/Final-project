@@ -170,10 +170,26 @@ body {
 
 .App_footer {
     background-color: #D61EC5;
-    color: white;
+    color: #1F1F1F;
     text-align: center;
     padding: 10px;
     width: 100%;
     /* position: fixed; */
     bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_icons{
+    margin-right: 50px;
+}
+
+.social_icons a:not(:last-child){
+    margin-right: 20px;
+}
+
+.social_icons a{
+    color: #1F1F1F;
+    font-size: 20px;
 }
