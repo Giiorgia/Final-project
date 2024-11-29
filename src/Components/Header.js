@@ -5,7 +5,7 @@ const Header = () => {
     <header className="app_header">
         <div className='fitness_header'>
         <div className="logo">
-        <img className='app_logo' src="../logo.jpeg" alt='logo'/>
+        <a href="" alt="logo"><img className='app_logo' src="../logo.jpeg" alt='logo'/></a>
       </div>
       <nav>
         <ul className='header_info'>
