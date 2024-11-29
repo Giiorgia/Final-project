@@ -28,7 +28,8 @@ const App = () => {
   };
 
   return (
-    <div className='Fitness_App'>
+   <div className='App_container'>
+     <div className='Fitness_App'>
       <Header/>
       {/* <h2 className="AppName">What muscle you want to train?</h2> */}
       <SearchBar onSearch={handleSearch} />
@@ -39,8 +40,9 @@ const App = () => {
       ) : (
         <ExerciseList exercises={exercises} />
       )}
-    </div>,
-    <Footer/>
+    </div>
+       <Footer/>
+   </div>
   );
 };
 

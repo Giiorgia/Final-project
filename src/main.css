@@ -30,14 +30,14 @@ body {
     z-index: -1; Place it behind the content
 }*/
 
-.app_header{
+.app_header {
     background-color: #1F1F1F;
     padding: 10px;
     margin-bottom: 50px;
     padding-bottom: 30px;
 }
 
-.header_title{
+.header_title {
     text-align: center;
     margin: 0;
 }
@@ -78,13 +78,13 @@ body {
 
 /* .AppName{
     /* text-align: center; */
-    /* letter-spacing: 2px; */
-    /* font-size: 30px;
+/* letter-spacing: 2px; */
+/* font-size: 30px;
     font-weight: bold; */
-    /* color: white; */
-/* } */ 
+/* color: white; */
+/* } */
 
-.SearchBar{
+.SearchBar {
     text-align: center;
     margin-bottom: 30px;
     margin: 0 auto;
@@ -134,11 +134,11 @@ body {
 }
 
 .instructions.expanded {
-    -webkit-line-clamp: unset; 
+    -webkit-line-clamp: unset;
     overflow: visible;
     width: 100%;
     background-color: white;
-  }
+}
 
 .Card_Image {
     width: 100%;
@@ -151,7 +151,7 @@ body {
     margin: 0;
 }
 
-.card_button{
+.card_button {
     margin-left: 10px;
     margin-bottom: 15px;
     background-color: #D61EC5;
@@ -161,9 +161,19 @@ body {
     border-radius: 30px;
 }
 
-.SearchBar{
+.SearchBar {
     text-align: center;
     margin-bottom: 30px;
     margin: 0 auto;
     margin-bottom: 50px;
+}
+
+.App_footer {
+    background-color: #D61EC5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    /* position: fixed; */
+    bottom: 0;
 }
