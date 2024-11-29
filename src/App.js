@@ -39,8 +39,8 @@ const App = () => {
       ) : (
         <ExerciseList exercises={exercises} />
       )}
-      <Footer/>
-    </div>
+    </div>;
+    <Footer/>
   );
 };
 
