@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Header from './Components/Header';
 import SearchBar from './Components/SearchBar';
 import ExerciseList from './Components/ExerciseList';
+import Footer from './Components/Footer';
 
 //const API_KEY = 'FxFPZ8SyUtJvVlDfBhEwOw==GB017hfqZfdEKKf5'; // Replace with your actual API key
 //const API_URL = 'https://api.api-ninjas.com/v1/exercises';
@@ -38,6 +39,7 @@ const App = () => {
       ) : (
         <ExerciseList exercises={exercises} />
       )}
+      <Footer/>
     </div>
   );
 };
